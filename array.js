@@ -93,5 +93,5 @@ console.log(numerosArray.indexOf(1)); //nos dice la pocision que se encuentra
  * *    valor especificado,  o -1 ninguno es encontrado 
  */
 
- console.log(numerosArray);
- console.log(numerosArray.lastIndexOf(5));
+console.log(numerosArray);
+console.log(numerosArray.lastIndexOf(5));
