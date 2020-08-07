@@ -41,7 +41,7 @@ console.log(numbers);
  */
 
 console.log(numbers);
-let guardaElNumeroSeparado = numbers.join(' ');
+let guardaElNumeroSeparado = numbers.join(' - ');
 console.log(guardaElNumeroSeparado);
 
 /**
