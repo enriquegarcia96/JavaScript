@@ -1,0 +1,31 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background: rebeccapurple;
+}
+
+
+
+.rebeccapurple{
+    background: rebeccapurple;
+}
+.green{
+    background: green;
+}
+
+/*
+los llamo en el JS
+*/
+.red{
+    background: red;
+}
+
+.black{
+    background: black;
+}

@@ -18,7 +18,6 @@ class Libro{
     getGenero(){
         return this.genero;
     }
-
     //*  metodo que devuelve la informacion
     informacionDelLibro(){
         return `${this.titulo} es un libro de ${this.genero} escrito por ${this.autor} el reconocido en el año ${this.year}`
