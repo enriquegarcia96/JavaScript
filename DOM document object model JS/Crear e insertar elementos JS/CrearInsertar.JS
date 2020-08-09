@@ -48,6 +48,7 @@ for (const dias of days) {
     diasAgregados.setAttribute('value', dias.toLowerCase()) 
     diasAgregados.textContent = dias;
     framentoDeDias.appendChild(diasAgregados);
+
 }
 // añado los dias en el DOM (option) etiqueta
 selectDays.appendChild(framentoDeDias);
