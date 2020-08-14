@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios y expresiones regulares</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <h1 id="title">FORMULARIO I</h1>
+    <form action="#" method="post" class="form" id="form">
+        <div class="form_field">
+            <label for="name" class="form_label">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div class="form_field">
+            <label for="name" class="form_label">E-mail:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div id="gender" class="form_field">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="male">
+            <label for="male">Female</label>
+            <input type="radio" name="gender" value="female">
+        </div>
+        <div class="form_field">
+            <label for="terms">Yo accepto los terminos</label>
+            <input type="checkbox" id="terms" name="terms">
+        </div>
+        <button id="submitButton" disabled>Send</button>
+    </form>
+    <script src="formulariosExpresionesRegulares.js"></script>
+</body>
+</html>
