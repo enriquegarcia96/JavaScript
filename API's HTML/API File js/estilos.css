@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    background-color: #ec407a;
+    font-family: sans-serif;
+    color: #ffffff;
+    user-select: none;
+}
+img{
+    max-width: 100%;
+}
