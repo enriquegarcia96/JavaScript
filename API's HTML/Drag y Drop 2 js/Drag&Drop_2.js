@@ -9,7 +9,7 @@ pendingTasks.addEventListener('dragstart', (e) =>{
     console.log(e.dataTransfer.getData('text'))//comparto la informacion
     //datatransfer; (uso para el navegador firefox)
         //setData: establece la informacion que quiero compartir
-        //getData: establece la informacion que quiero compartir
+        //getData: establece la informacion que quiero obtener
 })
 
 //efecto visual 
